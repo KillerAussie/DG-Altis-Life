@@ -9829,8 +9829,55 @@
             <Portuguese>Loja de Armas da Polícia</Portuguese>
             <Polish>Broń policji</Polish>
         </Key>
-        <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
-            <Original>Patrol Officer Weapon Shop</Original>
+        <Key ID="STR_MAR_SMT_ONLY_Shop">
+            <Original>Altis SMT ONLY</Original>
+            <Czech>Policistou obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes flic (Officier)</French>
+            <Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>
+            <Italian>Armeria da Pattuglia</Italian>
+            <Russian></Russian>
+            <Portuguese>Loja de Armas de Patrulha</Portuguese>
+            <Polish>Broń patrolowa</Polish>
+            <German>Streifenpolizist Waffenladen</German>
+        </Key>
+		    <Key ID="STR_MAR_Patrol_Officer_Weapon_Shop">
+            <Original>Altis Patrol Officer Shop</Original>
+            <Czech>Policistou obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes flic (Officier)</French>
+            <Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>
+            <Italian>Armeria da Pattuglia</Italian>
+            <Russian></Russian>
+            <Portuguese>Loja de Armas de Patrulha</Portuguese>
+            <Polish>Broń patrolowa</Polish>
+            <German>Streifenpolizist Waffenladen</German>
+        </Key>
+		</Key>
+		    <Key ID="STR_MAR_SWAT_Shop">
+            <Original>Altis SWAT Officer Shop</Original>
+            <Czech>Policistou obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes flic (Officier)</French>
+            <Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>
+            <Italian>Armeria da Pattuglia</Italian>
+            <Russian></Russian>
+            <Portuguese>Loja de Armas de Patrulha</Portuguese>
+            <Polish>Broń patrolowa</Polish>
+            <German>Streifenpolizist Waffenladen</German>
+        </Key>
+		</Key>
+		    <Key ID="STR_MAR_State_Command_Shop">
+            <Original>Altis State Command Officer Shop</Original>
+            <Czech>Policistou obchodu se zbraněmi</Czech>
+            <French>Vendeur d'armes flic (Officier)</French>
+            <Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>
+            <Italian>Armeria da Pattuglia</Italian>
+            <Russian></Russian>
+            <Portuguese>Loja de Armas de Patrulha</Portuguese>
+            <Polish>Broń patrolowa</Polish>
+            <German>Streifenpolizist Waffenladen</German>
+        </Key>
+		</Key>
+		    <Key ID="STR_MAR_Marshals_Shop">
+            <Original>Altis Marshals Officer Shop</Original>
             <Czech>Policistou obchodu se zbraněmi</Czech>
             <French>Vendeur d'armes flic (Officier)</French>
             <Spanish>Tienda de Armas de Oficial de Patrulla</Spanish>

@@ -7,16 +7,18 @@ _onScreenTime = 5;
 
 sleep 2; //Wait in seconds before the credits start after player is in-game
 
-_role1 = "Welcome to Altis Life";
-_role1names = ["A Framework by Tonic"];
-_role2 = "Improved upon";
-_role2names = ["By The ArmA RPG Life Team"];
+_role1 = "Welcome to Desirable networks";
+_role1names = ["Welcome To Desirable networks"];
+_role2 = "Founders";
+_role2names = ["Jackson/Sean Jackson"];
 _role3 = "Visit Our Website at";
 _role3names = ["www.yourwebsite.com"];
-_role4 = "Join Our Teamspeak at";
-_role4names = ["ts.yourwebsite.com"];
-_role5 = "Please enjoy your stay";
-_role5names = [profileName];
+_role4 = "Have Fun";
+_role4names = ["Have fun with our new altis life server"];
+_role5 = "Join Our Teamspeak at";
+_role5names = ["desirablenetworks.teamspeak3.com"];
+_role6 = "Please enjoy your stay";
+_role6names = [profileName];
 {
 sleep 2;
 _memberFunction = _x select 0;
@@ -40,5 +42,6 @@ sleep (_onScreenTime);
 [_role2, _role2names],
 [_role3, _role3names],
 [_role4, _role4names],
-[_role5, _role5names]
+[_role5, _role5names],
+[_role6, _role6names]
 ];
