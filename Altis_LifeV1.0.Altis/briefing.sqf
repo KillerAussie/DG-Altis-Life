@@ -1,4 +1,4 @@
-waitUntil {!isNull player && player isEqualTo player};
+waitUntil {!isNull player && player isEqualTo player}; Fuckyou
 if (player diarySubjectExists "controls") exitWith {};
 
 player createDiarySubject ["credits","Credits"];
