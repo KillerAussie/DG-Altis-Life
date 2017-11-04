@@ -47,9 +47,13 @@ switch (playerSide) do {
                 };
             };
             player setObjectTextureGlobal [0, _skinName];
+	    };
+        if(backpack player != "") then {
+            unitBackpack player setObjectTextureGlobal [0, ""];
+            [unitBackpack player,0,""] remoteExec ["life_fnc_setTexture",RCLIENT];
         };
-    };
-
+    };			
+ 
     case independent: {
         if (uniform player isEqualTo "U_Rangemaster") then {
             player setObjectTextureGlobal [0, "textures\medic_uniform.jpg"];
