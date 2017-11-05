@@ -4,12 +4,12 @@
 _bullet = _this select 6;
 _shooter = _this select 7;
 
-if ({((_shooter distance _x select 0) < _x select 1)} count SAFE_ZONES > 0) then {
+if ({((_shooter distance (getMarkerPos _x select 0)) < _x select 1)} count SAFE_ZONES > 0) then {
    deleteVehicle _bullet;
    titleText ["Stop Shooting In The Safezone!", "PLAIN"];
 };
 
-if ({((_shooter distance _x select 0) < _x select 1)} count COP_ZONES > 0) then {
+if ({((_shooter distance (getMarkerPos _x select 0)) < _x select 1)} count COP_ZONES > 0) then {
    deleteVehicle _bullet;
    titleText ["Stop Shooting In The Safezone!", "PLAIN"];
 };
