@@ -12,7 +12,7 @@ _part = _this select 1;
 _damage = _this select 2;
 _source = _this select 3;
 _projectile = _this select 4;
-_healAmount = ((getDammage _unit) - _damage)
+_healAmount = ((getDammage _unit) - _damage);
 
 //Handle the tazer first (Top-Priority).
 if (!isNull _source) then {
