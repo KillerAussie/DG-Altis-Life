@@ -12,6 +12,7 @@ _part = _this select 1;
 _damage = _this select 2;
 _source = _this select 3;
 _projectile = _this select 4;
+_healAmount = ((getDammage _unit) - _damage)
 
 //Handle the tazer first (Top-Priority).
 if (!isNull _source) then {
@@ -22,7 +23,7 @@ if (!isNull _source) then {
             if (side _source isEqualTo west && side _unit isEqualTo civilian) then {
                 private["_distance"];
                 _distance = if (_projectile == "B_556x45_dual") then {100} else {35};
-                _unit setDamage 0;
+                _unit setDamage _healAmount;
                 if (_unit distance _source < _distance) then {
                     if (!life_istazed && !life_isknocked && !(_unit getVariable ["restrained",false])) then {
                         if (vehicle player != player) then {
@@ -50,6 +51,6 @@ _damage;
 
 if ((vehicle _source isKindOf "landVehicle") OR (vehicle _source isKindOf "Air") OR (vehicle _source isKindOf "Ship")) then {
 
-_unit setDamage 0;
+_unit setDamage _healAmount;
 
 };
