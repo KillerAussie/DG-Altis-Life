@@ -19,10 +19,10 @@ if (!isNull _source) then {
         if (_unit getVariable["Revive",false]) exitWith {};
         _curWep = currentWeapon _source;
         if (_projectile in ["B_9x21_Ball","B_556x45_dual"] && _curWep in ["hgun_P07_snds_F","arifle_SDAR_F"]) then {
-            if (side _source isEqualTo west && playerSide isEqualTo civilian) then {
+            if (side _source isEqualTo west && side _unit isEqualTo civilian) then {
                 private["_distance"];
                 _distance = if (_projectile == "B_556x45_dual") then {100} else {35};
-                _damage = false;
+                _unit setDamage 0;
                 if (_unit distance _source < _distance) then {
                     if (!life_istazed && !life_isknocked && !(_unit getVariable ["restrained",false])) then {
                         if (vehicle player != player) then {
