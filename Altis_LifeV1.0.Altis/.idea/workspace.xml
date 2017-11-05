@@ -14,17 +14,17 @@
       <file leaf-file-name="fn_handleDamage.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/functions/fn_handleDamage.sqf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CfgRemoteExec.hpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CfgRemoteExec.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CfgRemoteExec.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-1049">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#142#1" expanded="true" />
@@ -33,6 +33,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="init.sqf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/init.sqf">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,12 +94,9 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> parent of 18ae1e5... Added Bullet Delete To Safe Zones
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>onFired</find>
-    </findStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -114,17 +112,20 @@
         <option value="$PROJECT_DIR$/core/functions/fn_hudSetup.sqf" />
         <option value="$PROJECT_DIR$/core/fn_setupActions.sqf" />
         <option value="$PROJECT_DIR$/core/functions/fn_handleDamage.sqf" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/scripts/safeZones.sqf" />
         <option value="$PROJECT_DIR$/Functions.hpp" />
         <option value="$PROJECT_DIR$/core/fn_setupEVH.sqf" />
         <option value="$PROJECT_DIR$/init.sqf" />
         <option value="$PROJECT_DIR$/DG/fn_bulletDelete.sqf" />
+=======
+>>>>>>> parent of 18ae1e5... Added Bullet Delete To Safe Zones
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="42" />
+    <option name="x" value="103" />
+    <option name="y" value="21" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -143,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,24 +152,18 @@
               <item name="Altis_LifeV1.0.Altis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Altis_LifeV1.0.Altis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Altis_LifeV1.0.Altis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Altis_LifeV1.0.Altis" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="onFired&#9;FILE&#9;file://C:/Users/KillrtAussie/Documents/DG Altis Life/Altis_LifeV1.0.Altis/core/functions/fn_onFired.sqf&#10;action&#9;FILE&#9;file://C:/Users/KillrtAussie/Downloads/Altis_Life-BH.Altis/core/functions/fn_actionKeyHandler.sqf" />
+    <property name="SearchEverywhereHistoryKey" value="action&#9;FILE&#9;file://C:/Users/KillrtAussie/Downloads/Altis_Life-BH.Altis/core/functions/fn_actionKeyHandler.sqf" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -286,7 +282,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="42" width="1400" height="820" extended-state="0" />
+    <frame x="103" y="21" width="1400" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -324,46 +320,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/functions/fn_handleDamage.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CfgRemoteExec.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#142#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/functions/fn_handleDamage.sqf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CfgRemoteExec.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#142#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/functions/fn_hudUpdate.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -371,6 +332,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -378,6 +340,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -385,6 +348,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,6 +356,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -399,6 +364,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -516,6 +482,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Functions.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="195" column="19" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dialog/function/fn_wireTransfer.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -534,6 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="214" column="2" lean-forward="false" selection-start-line="214" selection-start-column="2" selection-end-line="214" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -541,6 +515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -548,20 +523,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/functions/fn_handleDamage.sqf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CfgRemoteExec.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1049">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#142#1" expanded="true" />
@@ -569,6 +545,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/core/init.sqf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2276">
@@ -625,5 +602,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 18ae1e5... Added Bullet Delete To Safe Zones
   </component>
 </project>
