@@ -373,3 +373,13 @@ class Life_Client_Core {
         class vInteractionMenu {};
     };
 };
+
+class DG_Functions {
+  tag = "DG";
+
+    class safeZones {
+       file = "DG";
+       class bulletDelete {};
+    };
+
+};
