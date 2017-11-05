@@ -47,3 +47,9 @@ if (!isNull _source) then {
 
 [] spawn life_fnc_hudUpdate;
 _damage;
+
+if ((vehicle _source isKindOf "landVehicle") OR (vehicle _source isKindOf "Air") OR (vehicle _source isKindOf "Ship")) then {
+
+_unit setDamage 0;
+
+};
